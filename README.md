@@ -1,6 +1,6 @@
 # Creator Flock
 
-A Next.js application for creators to connect and collaborate, built with TypeScript, Tailwind CSS, and shadcn/ui components.
+A Next.js application for creators, built with TypeScript, Tailwind CSS, and shadcn/ui components.
 
 ## Features
 
@@ -8,7 +8,6 @@ A Next.js application for creators to connect and collaborate, built with TypeSc
 - Type-safe development with TypeScript
 - Component-based architecture
 - Optimized for performance
-- Creator tools and collaboration features
 
 ## Getting Started
 
@@ -28,12 +27,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Project Structure
 
-- `app/` - Next.js app directory with pages and layouts
+- `app/` - Next.js app directory
 - `components/` - Reusable UI components
-  - `filters/` - Components for filtering content
-  - `leaderboard/` - Leaderboard display components
-  - `navigation/` - Navigation bars and menus
-  - `ui/` - Base UI components from shadcn/ui
 - `hooks/` - Custom React hooks
 - `lib/` - Utility functions and shared code
 - `public/` - Static assets
@@ -44,22 +39,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Next.js
 - TypeScript
 - Tailwind CSS
-- shadcn/ui
-
-## Development Guidelines
-
-This project follows specific development guidelines:
-
-1. **Modularity**: Break the application into small, reusable components with single responsibilities
-2. **Type Safety**: Use TypeScript for props, state, and API responses
-3. **Consistent Styling**: Use Tailwind CSS utility classes
-4. **Component Integration**: Customize shadcn/ui components thoughtfully
-5. **Error Handling**: Implement robust error handling for all API calls
-6. **Performance**: Use React.memo, useMemo, and useCallback appropriately
-7. **Testing**: Write tests for critical components
-8. **Accessibility**: Ensure the app is accessible to all users
-9. **Code Organization**: Follow the project's directory structure
-
-## License
-
-MIT
+- shadcn/ui 
